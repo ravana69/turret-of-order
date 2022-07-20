@@ -6,9 +6,9 @@ var w = c.width = 600,
 			shotBaseDelay: 10,
 			shotAddedDelay: 8,
 			radius: 400,
-			bulletVel: 1,
+			bulletVel: 20,
 			bulletAcc: .1, 
-			targetSpeed: 2,
+			targetSpeed: 5,
 			
 			targetSpawnDelay: 18,
 			
