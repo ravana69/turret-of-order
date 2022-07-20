@@ -1,0 +1,17 @@
+body {
+	overflow: hidden;
+	background-color: black;
+}
+canvas {
+	position: absolute;
+	top: calc( 50% - 300px );
+	left: calc( 50% - 300px );
+}
+#overlay {
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: calc( 50% - 300px );
+	left: calc( 50% - 300px );
+	background: radial-gradient( 300px at 300px 300px, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100% );
+}
